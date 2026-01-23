@@ -128,8 +128,6 @@ jobs:
             项目: `${{ github.repository }}`
 
             说明: 
-              - 默认关闭新版本通知和自动更新功能
-              - 此次更新将依赖全部升级到最新，目前运行稳定，性能良好，可持续使用
-              - 下个版本将重构代码，迁移到新仓库，不再向下兼容
+              - 修复地理数据库更新导致的错误
               
             🔗 [查看详情](https://github.com/${{ github.repository }}/releases/tag/${{ github.ref_name }})
